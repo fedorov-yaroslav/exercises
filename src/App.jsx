@@ -1,13 +1,12 @@
 import './App.css'
-import Joke from "./components/Joke.jsx";
+import ApiPractice from './components/ApiPractice.jsx'
 
 function App() {
 
   return (
     <>
-      <Joke />
+      <ApiPractice />
     </>
   )
 }
-
 export default App
