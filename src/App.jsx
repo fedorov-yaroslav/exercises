@@ -1,11 +1,11 @@
 import './App.css'
-import ChangeColorRef from './components/ChangeColorRef.jsx'
+import FormConstructor from './components/FormСonstructor.jsx'
 
 function App() {
 
   return (
     <>
-      <ChangeColorRef />
+      <FormConstructor />
     </>
   )
 }
