@@ -1,11 +1,11 @@
 import './App.css'
-import Music from './components/Music.jsx'
+import Focus from './components/Focus.jsx'
 
 function App() {
 
   return (
     <>
-      <Music />
+      <Focus />
     </>
   )
 }
