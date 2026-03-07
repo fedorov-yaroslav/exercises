@@ -1,11 +1,11 @@
 import './App.css'
-import Focus from './components/Focus.jsx'
+import ChangeColorRef from './components/ChangeColorRef.jsx'
 
 function App() {
 
   return (
     <>
-      <Focus />
+      <ChangeColorRef />
     </>
   )
 }
