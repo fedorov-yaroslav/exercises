@@ -81,3 +81,19 @@ button:focus-visible {
   justify-content: center;
   flex-wrap: wrap;
 }
+
+.playerbutton{
+  width: 240px;
+  background: #f8f8ff;
+  color: #000000;
+  height: 70px;
+  border: 10px solid white;
+  border-radius: 25px;
+  transition: 0.5s;
+
+}
+
+.playerbutton:hover {
+  color: white;
+  background: black;
+}

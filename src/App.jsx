@@ -1,11 +1,11 @@
 import './App.css'
-import ApiPractice from './components/ApiPractice.jsx'
+import Music from './components/Music.jsx'
 
 function App() {
 
   return (
     <>
-      <ApiPractice />
+      <Music />
     </>
   )
 }
