@@ -25,9 +25,10 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+  flex-direction: column;
   min-width: 320px;
   min-height: 100vh;
+  padding: 5px;
 }
 
 h1 {
@@ -67,31 +68,42 @@ button:focus-visible {
   }
 }
 
-.square {
-  width: 200px;
-  height: 200px;
-  background: black;
+.job-card{
+  flex-direction: column;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  background: linear-gradient(-180deg, white, #fcfcfc);
+  height: 140px;
+  width: 800px;
+  justify-content: center;
+  border-radius: 12px;
+  align-items: center;
 }
 
-.form-container{
+article{
+  width: 800px;
   display: flex;
   flex-direction: column;
-  gap: 0.7rem;
+  gap: 10px;
+
 }
 
-.form-preview{
-  border: 1px solid black;
-  border-radius: 12px;
-  min-width: 200px;
+body{
+  background: #f6f6f6;
 }
 
-.submit-button{
-  border-radius: 12px;
+.search-input{
+  margin-top: 0.5rem;
+  height: 34px;
+  font-size: 14px;
+  width: 800px;
+  border: none;
+  padding-left: 0.5rem;
+  box-sizing: border-box;
+
+}
+
+.select{
   height: 2rem;
-  border: none
-}
-
-.container{
-  display: flex;
-  gap: 6rem;
 }

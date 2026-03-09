@@ -1,11 +1,11 @@
 import './App.css'
-import FormConstructor from './components/FormСonstructor.jsx'
+import JobBoard from "./components/JobBoard.jsx";
 
 function App() {
 
   return (
     <>
-      <FormConstructor />
+      <JobBoard />
     </>
   )
 }
