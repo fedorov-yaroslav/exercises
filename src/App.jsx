@@ -1,11 +1,11 @@
 import './App.css'
-import RandomQuoteGenerator from "./components/RandomQuoteGenerator.jsx";
+import ContactForm from "./components/ContactForm.jsx";
 
 function App() {
 
   return (
     <>
-      <RandomQuoteGenerator />
+      <ContactForm />
     </>
   )
 }
