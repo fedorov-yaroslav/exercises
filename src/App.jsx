@@ -1,11 +1,11 @@
 import './App.css'
-import JobBoard from "./components/JobBoard.jsx";
+import PasswordGenerator from "./components/PasswordGenerator.jsx";
 
 function App() {
 
   return (
     <>
-      <JobBoard />
+      <PasswordGenerator />
     </>
   )
 }
