@@ -1,11 +1,11 @@
 import './App.css'
-import PasswordGenerator from "./components/PasswordGenerator.jsx";
+import RandomQuoteGenerator from "./components/RandomQuoteGenerator.jsx";
 
 function App() {
 
   return (
     <>
-      <PasswordGenerator />
+      <RandomQuoteGenerator />
     </>
   )
 }
